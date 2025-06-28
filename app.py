@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 
 #Cargamos el modelo
 import pickle
-filename = 'modelos_regresion.pkl'
+filename = 'modelos_regresion2.pkl'
 model_Tree, model_Knn, model_NN,model_SVM, min_max_scaler, variables = pickle.load(open(filename, 'rb'))
 
 
